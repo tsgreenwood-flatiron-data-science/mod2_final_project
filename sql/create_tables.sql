@@ -89,7 +89,7 @@ CREATE TABLE reviews (
     , artist TEXT
     , url TEXT
     , score FLOAT(2)
-    , best_new_music BOOLEAN
+    , best_new_music INT
     , author TEXT
     , author_type TEXT
     , pub_date DATE
