@@ -46,7 +46,7 @@ column names, and column types */
 
 CREATE TABLE genres (
     reviewid VARCHAR(10)
-    , genres TEXT 
+    , genre TEXT 
     );
 
 /* Copy data from CSV file to table */
@@ -66,7 +66,7 @@ column names, and column types */
 
 CREATE TABLE labels (
     reviewid VARCHAR(10)
-    , labels TEXT 
+    , label TEXT 
     );
 
 /* Copy data from CSV file to table */
@@ -88,8 +88,8 @@ CREATE TABLE reviews (
     , title TEXT
     , artist TEXT
     , url TEXT
-    , score TEXT
-    , best_new_music TEXT
+    , score FLOAT(2)
+    , best_new_music INT
     , author TEXT
     , author_type TEXT
     , pub_date DATE
